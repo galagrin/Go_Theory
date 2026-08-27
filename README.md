@@ -20,15 +20,23 @@
 -   [Планировщик: до Go 1.14 и после + Стек горутины](./02_Concurrency/Stack_Goroutines.md)
 -   [Состязание мьютексов (lock contention)](./02_Concurrency/Contention.md)
 -   [Race Detector](./02_Concurrency/Race_Detector.md)
+-   ***
 
 ### Каналы
 
 -   [Каналы внутреннее устройство](./02_Concurrency/Go_Channels.md)
 -   [Select](./02_Concurrency/Select.md)
 
+---
+
 ### Примитивы синхронизации
 
 -   [sync.WaitGroup](./02_Concurrency/WaitGroup.md)
+-   [Mutex и RWMutex](./02_Concurrence/Mutex_RWMutex.md)
+-   [Атомики](./02_Concurrence/Atomic.md)
+-   [Мбютексы VS Атомики](./02_Concurrence/MutexvsAtomic.md)
+-   [sync.Once или Однократное выполнение](./02_Concurrence/syncOnce.md)
+-   [sync.Cond (Условные переменные)](./02_Concurrence/Cond_Pool.md)
 
 ---
 
