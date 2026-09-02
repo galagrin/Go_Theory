@@ -26,6 +26,7 @@
 
 -   [Каналы внутреннее устройство](./02_Concurrency/Go_Channels.md)
 -   [Select](./02_Concurrency/Select.md)
+-   [Правила пользования каналами](./02_Concurrency/Channels_Rules.md)
 
 ---
 
