@@ -6,10 +6,18 @@
 
 ## 📌 1. Основы языка
 
+### Мапы
+
 -   [Map основы](./01_Language_Basics/Map_basics.md)
 -   [Map под капотом](./01_Language_Basics/Map_DeepDive.md)
 -   [Map коллизии и переполнение](./01_Language_Basics/Map_hashCollision.md)
 -   [Map под капотом простыми словами](./01_Language_Basics/Map_hashCollision.md)
+
+---
+
+### Изменения Go
+
+-   [Go 1.22: изменение семантики переменных цикла](./01_Language_Basics/go1.22_LoopVariables.md)
 
 ---
 
@@ -43,6 +51,14 @@
 
 ## 📌 3. Рантайм и GC
 
--   [Паттерн Merge (Fan-In)](./01_Concurrency/.md).
+### Стек и куча
+
+-   [Стек и куча: основы](./03_Runtime_and_GC/Stack_and_Heap.md)
+-   [Устройства стека](./03_Runtime_and_GC/Stack_Go.md)
+-   [Устройства кучи](./03_Runtime_and_GC/Heap_Go.md)
+-   [Escape Analysis](./03_Runtime_and_GC/EscapeAnalysis.md)
 
 ## 📌 4. Архитектура и паттерны
+
+-   [Паттерн Merge (Fan-In)](./04_Architecture_and_Patterns/Fan-In.md).
+-   [Worker Pool vs Pipeline в Go](./04_Architecture_and_Patterns/pipeline_vs_workerPool.md).
